@@ -75,9 +75,9 @@ def getLargestPark(parksList):
     #intialize a maximum value and an empty string for code
     max = 0
     byCode = ""
-    # loop through to compare value by acres, then if that value is greater than the maximum value, update and get the code for the largest park
+    #loop through to compare value by acres, then if that value is greater than the maximum value, update and get the code for the largest park
     for parkDict in parksList:
-        # retrieve by acres
+        #retrieve by acres
         byAcres = parkDict["Acres"]
         byAcres = int(byAcres)
         if byAcres > max:

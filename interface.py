@@ -170,7 +170,7 @@ def printParksForSearch(parksList):
         byDate = parkDict["Date"]
         #strip special character when print description
         byDescription = parkDict["Description"].strip('"')
-        # make all byCode lower to compare with search
+        #make all byCode lower to compare with search
         if search in byName.lower() or search in byCode.lower() or search in byDescription.lower():
             #print info and increase count if found in search
             print(byName + " (" + byCode + ")")

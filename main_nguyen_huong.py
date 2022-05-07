@@ -15,7 +15,7 @@ def main():
     #call interface to get a menu for user
     menu = interface.getMenuDict()
     # choice = interface.getUserChoice(menu)
-    # intialize choice as a string
+    #intialize choice as a string
     choice = ""
     #while not quitting, display options and call each function accordingly to the choices they pick
     while choice != "Q":
